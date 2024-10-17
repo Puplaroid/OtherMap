@@ -13,7 +13,7 @@ const Main = ({ navigation }) => {
                 onPress={() => navigation.navigate('PickLocation')}
             />
             <Button
-                title="Go to Order Tracking Map"
+                title="Go to Order Tracking Map Before Confirm"
                 onPress={() => navigation.navigate('OrderTrackingMapBeforeConfirm')}
             />
             <Button

@@ -1,12 +1,12 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import Main from './Page/Main';
-import ShowMap from './Page/ShowMap';
-import SearchCanteen from './Page/SearchCanteen';
-import PickLocation from './Page/PickLocation';
-import OrderTrackingMapBeforeConfirm from './Page/OrderTrackingMapBeforeConfirm';
-import OrderTrackingMapToCanteen from './Page/OrderTrackingMapToCanteen';
-import OrderTrackingMapToDestination from './Page/OrderTrackingMapToDestination';
+import Main from './Requester/Main';
+import ShowMap from './Requester/ShowMap';
+import SearchCanteen from './Requester/SearchCanteen';
+import PickLocation from './Requester/PickLocation';
+import OrderTrackingMapBeforeConfirm from './Walker/OrderTrackingMapBeforeConfirm';
+import OrderTrackingMapToCanteen from './Walker/OrderTrackingMapToCanteen';
+import OrderTrackingMapToDestination from './Walker/OrderTrackingMapToDestination';
 
 const Stack = createStackNavigator();
 
