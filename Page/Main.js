@@ -8,6 +8,10 @@ const Main = ({ navigation }) => {
         title="Go to Search Canteen"
         onPress={() => navigation.navigate('SearchCanteen')}
       />
+      <Button
+        title="Go to Pick Location"
+        onPress={() => navigation.navigate('PickLocation')}
+        />
     </View>
   );
 };
