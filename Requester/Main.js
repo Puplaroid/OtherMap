@@ -24,6 +24,14 @@ const Main = ({ navigation }) => {
                 title="Go to Order Tracking Map To Destination"
                 onPress={() => navigation.navigate('OrderTrackingMapToDestination')}
             />
+            <Button
+                title="Go to Chat With Admin"
+                onPress={() => navigation.navigate('ChatWith_Admin')}
+            />
+            <Button
+                title="Go to Chat With Requester"
+                onPress={() => navigation.navigate('ChatWith_Requester')}
+            />
         </View>
     );
 };
